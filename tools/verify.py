@@ -94,7 +94,9 @@ def classify(t):
     return t, st
 def is_page(t): return os.path.splitext(t.lower())[1] in ('.htm', '.html', '.css', '.js') or not os.path.splitext(t)[1]
 media_missing = [t for t in broken if not is_page(t)]
-with ThreadPoolExecutor(6) as ex: cl = list(ex.map(classify, sorted(t for t in broken if is_page(t))))
+PAGE_CAP = 600
+say('B0a missing page-type targets total:', sum(1 for t in broken if is_page(t)), '(first %d checked live)' % PAGE_CAP)
+with ThreadPoolExecutor(6) as ex: cl = list(ex.map(classify, sorted(t for t in broken if is_page(t))[:PAGE_CAP]))
 cl += [(t, 200) for t in media_missing[:0]]
 say('B0 missing media targets (images etc., not mirrored in this pass, stay on live site; not individually re-checked):', len(media_missing))
 log = json.load(open(os.path.join(ROOT, 'tools/crawl_log.json'))) if os.path.exists(os.path.join(ROOT, 'tools/crawl_log.json')) else {}

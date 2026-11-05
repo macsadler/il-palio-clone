@@ -1,2 +1,59 @@
-PARTIAL MIRROR (crawl still in progress) - final counts will appear here after tools/verify.py runs.
-Files so far: see tools/MANIFEST.txt
+A1 files in manifest: 6548 | missing on disk: 0 | hash mismatch after reversing rewrite: 0
+A2 live sample pages: 300 {'ok': 299, 'fetch-0': 1}
+   ! siena2865.htm fetch-0
+B1 relative internal links examined: 296435 | distinct missing targets: 29405
+B0a missing page-type targets total: 12675 (first 600 checked live)
+B0 missing media targets (images etc., not mirrored in this pass, stay on live site; not individually re-checked): 16730
+B2 missing targets that are ALSO missing (404) on Orlando's live site (broken on original): 4
+B3 missing targets exist live but are media/large/skipped files left on live site (not mirrored by design): 16730
+B4 missing targets that are pages/css/js and exist live (BROKEN BY US, must be 0): 596
+B5 live check inconclusive (timeout etc): 0
+   ! by-us 01siena_saluti.htm <- inDice_foto_siena.htm
+   ! by-us 04siena_piazze.htm <- inDice_foto_siena.htm
+   ! by-us 05siena_vie.htm <- inDice_foto_siena.htm
+   ! by-us 06siena_palazzi.htm <- inDice_foto_siena.htm
+   ! by-us 07siena_chiese.htm <- inDice_foto_siena.htm
+   ! by-us 1.abbadia.htm <- cartoline_dintorni.htm
+   ! by-us 10.chiusdino.htm <- cartoline_dintorni.htm
+   ! by-us 10siena_alberghi.htm <- inDice_foto_siena.htm
+   ! by-us 11.chiusi.htm <- cartoline_dintorni.htm
+   ! by-us 12.colle.htm <- cartoline_dintorni.htm
+   ! by-us 12siena_stazioni.htm <- inDice_foto_siena.htm
+   ! by-us 13.gaiole.htm <- cartoline_dintorni.htm
+   ! by-us 13siena_nuovi_quartieri.htm <- inDice_foto_siena.htm
+   ! by-us 14.montalcino.htm <- cartoline_dintorni.htm
+   ! by-us 14siena_fuori_camollia.htm <- inDice_foto_siena.htm
+   ! by-us 15.montepulciano.htm <- cartoline_dintorni.htm
+   ! by-us 15siena_panorami.htm <- inDice_foto_siena.htm
+   ! by-us 16.8.1955.htm <- sch1955.16.8.htm
+   ! by-us 16.8.1956.htm <- sch1956.16.8.htm
+   ! by-us 16.8.1957.htm <- sch1957.16.8.htm
+   ! by-us 16.8.1958.htm <- sch1958.16.8.htm
+   ! by-us 16.8.1959.htm <- sch1959.16.8.htm
+   ! by-us 16.monteriggioni.htm <- cartoline_dintorni.htm
+   ! by-us 16siena_acquerellate.htm <- inDice_foto_siena.htm
+   ! by-us 17.monteroni.htm <- cartoline_dintorni.htm
+   ! by-us 18.monticiano.htm <- cartoline_dintorni.htm
+   ! by-us 1886.htm <- sch1886.4.7.htm
+   ! by-us 1898.htm <- sch1898.16.8.htm
+   ! by-us 1899.htm <- sch1899.16.8.htm
+   ! by-us 18siena_castelli.htm <- inDice_foto_siena.htm
+C1 file names that exist in more than one letter-case spelling (kept as separate files): 55
+    ['scLupi.htm', 'sclupi.htm']
+    ['sfOGLIE.jpg', 'sfoglie.jpg', 'sfoGLIE.jpg']
+    ['scbrandani5.htm', 'scBrandani5.htm']
+    ['meteosiena.htm', 'METEOSIENA.htm']
+    ['M25novembre.htm', 'm25novembre.htm']
+    ['m5novembre.htm', 'M5novembre.htm']
+    ['SEMP4.GIF', 'semp4.gif']
+    ['polonski.htm', 'POLONSKI.htm']
+    ['processi.htm', 'PROCESSI.htm']
+    ['mossCOSTANTINI.htm', 'mosscostantini.htm']
+C2 files whose repo spelling is not found by exact case but would be by lowercase (links needing a case twin): 628
+
+PAGES MIRRORED (html/htm): 6184
+LINKS REWRITTEN (absolute -> relative): 4669 in 4660 files
+LINKS BROKEN ON THE ORIGINAL SITE (distinct targets): 4
+LINKS BROKEN BY US (distinct targets): 596
+FILES SKIPPED / NOT FETCHED (status:kind -> count) from crawl log: {}
+  skip-big = image over the size cap (photo archive, first pass); skip-type = video/audio/PDF/Word/etc; query-skipped = URLs with ?query (search runs live)

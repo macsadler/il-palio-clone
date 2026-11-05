@@ -55,7 +55,8 @@ def main():
         h, s, u = line.split()
         mirrored.add(local_path(urllib.parse.urlsplit(u).path))
     total = files = 0
-    log = {}
+    lf = os.path.join(ROOT, 'tools', 'rewrite_log.json')
+    log = json.load(open(lf)) if os.path.exists(lf) else {}
     for lp in sorted(mirrored):
         if not lp.lower().endswith(('.htm', '.html')): continue
         full = os.path.join(ROOT, lp)
