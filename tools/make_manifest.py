@@ -2,7 +2,7 @@
 """Rebuild tools/MANIFEST.txt from the files on disk (only valid BEFORE tools/rewrite.py has run)."""
 import os, hashlib, urllib.parse
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
-SKIP = {'README.md', 'README.txt', 'robots.txt'}
+SKIP = {'README.md', 'README.txt', 'robots.txt', '.gitignore', 'index.html'}
 rows = []
 for dp, dn, fn in os.walk(ROOT):
     dn[:] = [d for d in dn if d not in ('.git', 'tools')]
