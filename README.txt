@@ -19,8 +19,10 @@ Tools and notes are in the tools/ folder and are never part of the pages:
 robots.txt asks search engines not to index this copy (the live site stays the real one).
 
 HOW TO REFRESH FROM THE LIVE SITE (one command, from the top folder of this repository)
-  bash tools/refresh.sh
+  bash tools/refresh.sh   (a full refresh takes a long time; see tools/NOTES.md)
 It re-downloads the site, rewrites the internal links, and re-runs the checks. Then commit and push.
+
+STATUS: PARTIAL COPY (first pass, about 7,500 pages). See tools/REPORT.txt.
 
 WHAT IT DOES NOT INCLUDE YET
 - Large media: the big photo archive, images over 250 KB, video, audio, PDF and Word files were
