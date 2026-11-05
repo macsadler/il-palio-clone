@@ -10,7 +10,7 @@ Site content is licensed CC BY-NC 4.0, as on the original site.
 
 HOW IT IS ORGANISED
 The site lives at the top level of this repository, with the original file names and folders
-(home page: index.htm, also copied as index.html because GitHub Pages looks for that name).
+(the live site serves index.htm at its address; Orlando also has a separate small index.html, kept exactly as it is).
 Names that differ only by upper/lower case are kept as separate files so both spellings work.
 Tools and notes are in the tools/ folder and are never part of the pages:
   tools/MANIFEST.txt  sha256, size and address of every original file exactly as fetched
