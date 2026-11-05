@@ -1,0 +1,2 @@
+PARTIAL MIRROR (crawl still in progress) - final counts will appear here after tools/verify.py runs.
+Files so far: see tools/MANIFEST.txt
