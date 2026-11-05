@@ -92,7 +92,11 @@ say('B1 relative internal links examined:', links, '| distinct missing targets:'
 def classify(t):
     st, _ = get(BASE + '/' + urllib.parse.quote(t))
     return t, st
-with ThreadPoolExecutor(6) as ex: cl = list(ex.map(classify, sorted(broken)))
+def is_page(t): return os.path.splitext(t.lower())[1] in ('.htm', '.html', '.css', '.js') or not os.path.splitext(t)[1]
+media_missing = [t for t in broken if not is_page(t)]
+with ThreadPoolExecutor(6) as ex: cl = list(ex.map(classify, sorted(t for t in broken if is_page(t))))
+cl += [(t, 200) for t in media_missing[:0]]
+say('B0 missing media targets (images etc., not mirrored in this pass, stay on live site; not individually re-checked):', len(media_missing))
 log = json.load(open(os.path.join(ROOT, 'tools/crawl_log.json'))) if os.path.exists(os.path.join(ROOT, 'tools/crawl_log.json')) else {}
 orig_broken = [t for t, st in cl if st in (404, 410, 403)]
 live_ok = [t for t, st in cl if st == 200]
@@ -100,7 +104,7 @@ other = [t for t, st in cl if st not in (404, 410, 403, 200)]
 def bydesign(t):
     ext = os.path.splitext(t.lower())[1]
     return ext not in ('.htm', '.html', '.css', '.js')
-by_design = [t for t in live_ok if bydesign(t)]
+by_design = media_missing
 by_us = [t for t in live_ok if not bydesign(t)]
 say('B2 missing targets that are ALSO missing (404) on Orlando\'s live site (broken on original):', len(orig_broken))
 say('B3 missing targets exist live but are media/large/skipped files left on live site (not mirrored by design):', len(by_design))
