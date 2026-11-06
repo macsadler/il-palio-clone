@@ -31730,3 +31730,8 @@ cf87c556a1233e680a285c63c70438babfdaa0941174486ca75462b254ddc348  2284  https://
 d20cbfade90517a7f6007824fb0907d9d2eef0378692b0aca663ddaab3085515  3386  https://www.ilpalio.org/vitt5327.htm
 da8b04a8def8d35b01196fc7177439759e20a33d2d0600a0f253d60465ff9119  3386  https://www.ilpalio.org/vitt5329.htm
 e06d5b9ace75391fef526d53318dbaebb1f7472e23a454b2ef9e87365311acbf  3386  https://www.ilpalio.org/vitt5328.htm
+2b23d70f81281f0ef50fc1e1b5356e34795597f12dd2ff14808afaf92286dcd5  3385  https://www.ilpalio.org/vitt5336.htm
+56fb680f18235ed7aef9269be9a8eac0275c71a5fbaf1a899e47afa7475b7ded  3386  https://www.ilpalio.org/vitt5335.htm
+5b63d6cd483c816305b90b1ca8a06bf8081b4ff0c979a9e182f97b1e0eb4cf89  3386  https://www.ilpalio.org/vitt5333.htm
+8a86f4f8fb0a57507fb29d1f5924b2a8bc4dcba93c6adb2f667ba5a7458b493a  3386  https://www.ilpalio.org/vitt5334.htm
+d10ce856e21cd0541165d791f096c291b9b70b1ae47c762d44540aab47e0585e  2282  https://www.ilpalio.org/topolino1549_143.htm
