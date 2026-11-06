@@ -1,0 +1,169 @@
+/* Light plumbing overlay: search, related pages, win chart.
+   Colors and fonts follow Orlando's existing pages. No third-party cookie scripts. */
+body.pp-page {
+  margin: 0;
+  background: #ffffff url("sfoglie.jpg") fixed;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #333300;
+}
+.pp-wrap {
+  max-width: 880px;
+  margin: 0 auto 32px;
+  padding: 12px 18px 28px;
+  background: #F3F3EB;
+}
+.pp-banner {
+  margin: 12px 16px 0;
+}
+.pp-banner img {
+  border: 0;
+  width: 100px;
+  height: 100px;
+}
+.pp-wrap h1 {
+  color: #ba3a10;
+  font-size: 1.45rem;
+  margin: 0.4em 0 0.6em;
+  text-align: center;
+}
+.pp-lead, .pp-note, .pp-cite {
+  font-size: 0.95rem;
+  line-height: 1.45;
+  text-align: left;
+}
+.pp-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+.pp-form input[type="search"] {
+  flex: 1 1 240px;
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid #996633;
+  background: #fff;
+  color: #333300;
+}
+.pp-form button {
+  font: inherit;
+  padding: 6px 14px;
+  border: 1px solid #804000;
+  background: #ba3a10;
+  color: #fff8dd;
+  cursor: pointer;
+}
+.pp-status {
+  font-size: 0.9rem;
+  margin: 0 0 10px;
+}
+.pp-result-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pp-result-list li {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e0d4b8;
+}
+.pp-result-list a {
+  color: #2f4f2f;
+  font-weight: bold;
+  text-decoration: none;
+}
+.pp-result-list a:hover {
+  color: #ae0410;
+  text-decoration: underline;
+}
+.pp-snippet {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.88rem;
+  color: #4a4a30;
+}
+.pp-note a, .pp-cite a, .pp-nav a {
+  color: #2f4f2f;
+}
+.pp-related {
+  clear: both;
+  box-sizing: border-box;
+  width: 85%;
+  max-width: 960px;
+  margin: 28px auto 18px;
+  padding: 12px 16px;
+  background: #F3F3EB;
+  border-top: 1px solid #cc9966;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  color: #333300;
+  text-align: left;
+}
+.pp-kicker {
+  color: #ba3a10;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+.pp-links {
+  margin: 0;
+  line-height: 1.7;
+}
+.pp-links a {
+  color: #2f4f2f;
+  text-decoration: none;
+  margin-right: 0.85em;
+}
+.pp-links a:hover {
+  color: #ae0410;
+  text-decoration: underline;
+}
+.pp-more {
+  margin-top: 8px;
+  font-size: 10pt;
+}
+.pp-chart {
+  display: grid;
+  gap: 7px;
+  margin: 18px 0;
+}
+.pp-row {
+  display: grid;
+  grid-template-columns: minmax(132px, 28%) 1fr 3em;
+  gap: 8px;
+  align-items: center;
+}
+.pp-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #2f4f2f;
+  text-decoration: none;
+  font-weight: bold;
+}
+.pp-name:hover { color: #ae0410; text-decoration: underline; }
+.pp-name img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border: 0;
+}
+.pp-bar-track {
+  background: #e8dcc0;
+  height: 16px;
+}
+.pp-bar {
+  height: 16px;
+  background: #ba3a10;
+}
+.pp-count { text-align: right; font-variant-numeric: tabular-nums; }
+.pp-cite {
+  margin-top: 22px;
+  font-size: 0.88rem;
+}
+.pp-cite ul { padding-left: 1.2em; }
+.pp-nav { margin: 10px 16px; font-size: 0.95rem; }
+@media (max-width: 640px) {
+  .pp-related { width: 94%; }
+  .pp-row { grid-template-columns: 1fr auto; }
+  .pp-bar-track { grid-column: 1 / -1; }
+}

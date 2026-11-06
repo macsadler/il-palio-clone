@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Cerca nel sito — Palio di Siena (copia)</title>
+<meta name="robots" content="noindex">
+<meta name="description" content="Ricerca tra i titoli e i testi delle pagine di questa copia del sito sul Palio di Siena.">
+<link rel="stylesheet" href="plumbing.css">
+</head>
+<body class="pp-page" link="#2f4f2f">
+<p class="pp-banner">
+<a href="index.htm"><img src="banner-paliosiena.jpg" width="100" height="100" alt="Il Palio di Siena" title="Torna all'indice"></a>
+</p>
+<p class="pp-nav"><a href="index.htm">Indice</a> · <a href="vittorie-contrade-grafico.htm">Grafico delle vittorie</a></p>
+<div class="pp-wrap">
+<h1>Cerca nel sito</h1>
+<p class="pp-lead">Ricerca semplice tra i titoli e un estratto del testo delle pagine di questa copia. Non usa cookie e non invia nulla fuori da queste pagine.</p>
+<form class="pp-form" id="pp-form" action="cerca.htm" method="get">
+<label class="visually-hidden" for="pp-q" style="position:absolute;left:-9999px">Testo da cercare</label>
+<input type="search" id="pp-q" name="q" maxlength="80" placeholder="contrada, fantino, cavallo, anno…" autofocus>
+<button type="submit">Cerca</button>
+</form>
+<p class="pp-status" id="pp-status">Caricamento dell'indice…</p>
+<div id="pp-results"></div>
+<p class="pp-note">Fonte dell'indice: titoli e testo delle pagine già presenti in questa copia (materiale di Orlando Papei / ilpalio.org). Copia di consultazione, uso non commerciale.</p>
+</div>
+<script src="plumbing-cerca.js" defer></script>
+</body>
+</html>
