@@ -6,6 +6,7 @@ C9marzoter.htm
 COLONNINO.htm
 FULMINE.htm
 GRIGIO_DI_O_FIASCHI.htm
+POSTOCANAPEFANTINI.htm
 QUE_luoghi_intro.html
 TRENTA.htm
 Twilight1.htm
@@ -31,6 +32,7 @@ caruso.htm
 cinzano.htm
 cronache800_7.htm
 cronachetutte.htm
+curiosita_mossa.htm
 digazaert.htm
 draadu4.htm
 draoca.htm
