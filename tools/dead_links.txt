@@ -143,6 +143,7 @@ scgiannetti.htm
 scgvigni.htm
 sch1696.3.7.htm
 sch1755.7.7.htm
+sch1757.2.7.htm
 sch1759.3.7.htm
 sch1760.7.7.htm
 sch1761.6.7.htm
@@ -216,3 +217,11 @@ siena6845art.htm
 siena74351.htm
 sienaspalio.htm
 son2000.2.7.htm
+son2026.7.htm
+special_on_siena.htm
+stella_da_a.tonini.htm
+storia.htm
+straordinario2018.htm
+svigni.htm
+tempinuovi.html
+teseo.htm
