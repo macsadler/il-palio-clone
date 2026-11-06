@@ -65,9 +65,9 @@ THE "BROKEN BY US = 0" TARGET WAS NOT MET. This is a PARTIAL mirror.
 - Verified: all 7,902 files match MANIFEST hashes after reversing the link rewrite (0 mismatches); 300/300 live-sampled pages equal our file after the rewrite.
 - To finish: run  python3 tools/fetch_missing.py ; python3 tools/add_manifest.py ; python3 tools/rewrite.py ; python3 tools/verify.py  (repeat fetch_missing until it reports 0 missing), then mirror.py with RESUME=1 for images.
 - Case twins: 266 names kept in several letter-case spellings; 1,284 missing targets differ only by case from a file we have (fetch_missing will fetch the exact spellings that are linked).
-=== PROGRESS (updated 2026-11-06 06:34:05 UTC) ===
-HTML pages mirrored: 28713
-Linked page targets still missing (fetchable): 2410
+=== PROGRESS (updated 2026-11-06 06:35:51 UTC) ===
+HTML pages mirrored: 28913
+Linked page targets still missing (fetchable): 2210
 Linked pages 404 on Orlando's own site (broken on original): 227
-Broken by us (page targets that exist live but are not yet copied): 2410
+Broken by us (page targets that exist live but are not yet copied): 2210
 (The "STATUS AT TIME LIMIT" text above is from the earlier pass; these numbers are current.)
