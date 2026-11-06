@@ -12,6 +12,7 @@ QUE_luoghi_intro.html
 TRENTA.htm
 Twilight1.htm
 VOTTA.htm
+alberto-positano.htm
 ares_elce.htm
 arianna.htm
 arrivo2018s.htm
@@ -30,6 +31,7 @@ cart1690.htm
 cart2118.htm
 cartoline.htm
 caruso.htm
+charles szymkovicz.htm
 cinzano.htm
 cronache800_7.htm
 cronachetutte.htm
@@ -99,3 +101,9 @@ pap7243.htm
 pap7376.htm
 papa4406.htm
 piadami.htm
+piaxenta.htm
+piciani.htm
+pimaccari.htm
+pipraticelli.htm
+pishifano.htm
+postocanape.htm
