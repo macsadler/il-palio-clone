@@ -6,6 +6,7 @@ C9marzoter.htm
 COLONNINO.htm
 FULMINE.htm
 GRIGIO_DI_O_FIASCHI.htm
+PALIOTEDESCO2.htm
 POSTOCANAPEFANTINI.htm
 QUE_luoghi_intro.html
 TRENTA.htm
@@ -63,3 +64,5 @@ monturati-tartuca-2012.htm
 monturati-torre-2012.htm
 monturati-valdimontone-2012.htm
 naomi.htm
+o.papei.htm
+pa1390.htm
