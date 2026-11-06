@@ -44,9 +44,13 @@ def get(t):
         except Exception: pass
         time.sleep(1.5 * (i + 1))
     return t, None
-have = files(); only = None; dead = set(); n = 0
+LIMIT = int(os.environ.get('LIMIT', '0'))
+DF = os.path.join(ROOT, 'tools', 'dead_links.txt')
+have = files(); only = None; n = 0
+dead = set(open(DF).read().split('\n')) - {''} if os.path.exists(DF) else set()
 for rnd in range(6):
     miss = {t: r for t, r in missing(have, only).items() if t not in dead}
+    if LIMIT: miss = dict(sorted(miss.items())[:max(0, LIMIT - n)])
     print('round', rnd, 'missing', len(miss), flush=True)
     if not miss: break
     new = set()
@@ -59,5 +63,7 @@ for rnd in range(6):
             open(fp, 'wb').write(data); new.add(t); have.add(t); n += 1
             if n % 200 == 0: print(n, 'saved', flush=True)
     only = new
+    if LIMIT and n >= LIMIT: break
+print('MISSING_LEFT', len([t for t in missing(have) if t not in dead]), flush=True)
 print('saved', n, 'dead(404 on original)', len(dead))
-open(os.path.join(ROOT, 'tools', 'dead_links.txt'), 'w').write('\n'.join(sorted(dead)) + '\n')
+open(DF, 'w').write('\n'.join(sorted(dead)) + '\n')
