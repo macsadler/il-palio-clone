@@ -182,3 +182,48 @@ QUE_compagnia_5.jpg
 QUE_cose_2.jpg
 QUE_guerra_18.jpg
 QUE_mori_13.jpg
+RICETTA1.jpg
+Ruello2.jpg
+S. Giorgio_SA 1766_1.jpg
+S. Giorgio_SA 1766_10.jpg
+S. Giorgio_SA 1766_11.jpg
+S. Giorgio_SA 1766_12.jpg
+S. Giorgio_SA 1766_13.jpg
+S. Giorgio_SA 1766_14.jpg
+S. Giorgio_SA 1766_2.jpg
+S. Giorgio_SA 1766_3.jpg
+S. Giorgio_SA 1766_4.jpg
+S. Giorgio_SA 1766_5.jpg
+S. Giorgio_SA 1766_6.jpg
+S. Giorgio_SA 1766_7.jpg
+S. Giorgio_SA 1766_9.jpg
+SAD_Spirito_10.jpg
+SAD_Spirito_11.jpg
+SAD_Spirito_12.jpg
+SAD_Spirito_13.jpg
+SAD_Spirito_14.jpg
+SAD_Spirito_16.jpg
+SAD_Spirito_19.jpg
+SAD_Spirito_2.jpg
+SAD_Spirito_23.jpg
+SAD_Spirito_24.jpg
+SAD_Spirito_26.jpg
+SAD_Spirito_28.jpg
+SAD_Spirito_3.jpg
+SAD_Spirito_30.jpg
+SAD_Spirito_31.jpg
+SAD_Spirito_32.jpg
+SAD_Spirito_34.jpg
+SAD_Spirito_35.jpg
+SAD_Spirito_36.jpg
+SAD_Spirito_37.jpg
+SAD_Spirito_4.jpg
+SAD_Spirito_40.jpg
+SAD_Spirito_41.jpg
+SAD_Spirito_43.jpg
+SAD_Spirito_44.jpg
+SAD_Spirito_5.jpg
+SAD_Spirito_6.jpg
+SAD_Spirito_7.jpg
+SAD_Spirito_8.jpg
+SAD_Spirito_9.jpg
