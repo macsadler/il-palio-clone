@@ -181,3 +181,4 @@ QUE_cartageogr.jpg
 QUE_compagnia_5.jpg
 QUE_cose_2.jpg
 QUE_guerra_18.jpg
+QUE_mori_13.jpg
