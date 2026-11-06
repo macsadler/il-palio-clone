@@ -22,7 +22,7 @@ HOW TO REFRESH FROM THE LIVE SITE (one command, from the top folder of this repo
   bash tools/refresh.sh   (a full refresh takes a long time; see tools/NOTES.md)
 It re-downloads the site, rewrites the internal links, and re-runs the checks. Then commit and push.
 
-STATUS: PARTIAL COPY (first pass, about 7,500 pages). See tools/REPORT.txt.
+STATUS: all linked pages are copied (31,374 pages). Images are partly copied; large photos and media are not. See tools/REPORT.txt.
 
 WHAT IT DOES NOT INCLUDE YET
 - Large media: the big photo archive, images over 250 KB, video, audio, PDF and Word files were

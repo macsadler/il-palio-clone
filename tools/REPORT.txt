@@ -1,31 +1,39 @@
-A1 files in manifest: 35034 | missing on disk: 0 | hash mismatch after reversing rewrite: 1
-   ! link.htm
+A1 files in manifest: 35036 | missing on disk: 0 | hash mismatch after reversing rewrite: 0
 A2 live sample pages: 300 {'ok': 300}
-B1 relative internal links examined: 965043 | distinct missing targets: 47176
-B0a missing page-type targets total: 257 (first 400 checked live)
+B1 relative internal links examined: 965077 | distinct missing targets: 47174
+B0a missing page-type targets total: 255 (first 400 checked live)
 B0 missing media targets (images etc., not mirrored in this pass, stay on live site; not individually re-checked): 46919
 B2 missing targets that are ALSO missing (404) on Orlando's live site (broken on original): 253
 B3 missing targets exist live but are media/large/skipped files left on live site (not mirrored by design): 46919
-B4 missing targets that are pages/css/js and exist live (BROKEN BY US, must be 0): 2
+B4 missing targets that are pages/css/js and exist live (BROKEN BY US, must be 0): 0
 B5 live check inconclusive (timeout etc): 2
-   ! by-us alberto-positano.htm <- pipositano.htm
-   ! by-us fbg49.htm <- scBuoni2.htm
 C1 file names that exist in more than one letter-case spelling (kept as separate files): 2290
-    ['Sonpal1451.htm', 'sonpal1451.htm']
-    ['scSANNA2.htm', 'scsanna2.htm']
-    ['pasquina.htm', 'PASQUINA.htm']
-    ['prove1927l.htm', 'prove1927L.htm']
-    ['prove1857L.htm', 'prove1857l.htm']
-    ['stornino.htm', 'STORNINO.htm']
-    ['niagara.htm', 'NIAGARA.htm']
-    ['VENUS.htm', 'venus.htm']
-    ['kamasutra.htm', 'KAMASUTRA.htm']
-    ['ungaros.htm', 'UNGAROS.htm']
+    ['vittoriecontradeoca.htm', 'vittoriecontradeOCA.htm']
+    ['Querino.htm', 'QUERINO.htm', 'querino.htm']
+    ['ELImia.htm', 'Elimia.htm', 'elimia.htm', 'ELIMIA.htm']
+    ['e22maggio.htm', 'E22maggio.htm']
+    ['UIR.htm', 'uir.htm']
+    ['B18febbraio.htm', 'b18febbraio.htm']
+    ['colonnino21.htm', 'COLONNINO21.htm']
+    ['disAQU.htm', 'disaqu.htm']
+    ['le_stesse_10.htm', 'LE_STESSE_10.htm']
+    ['b19febbraiobis.htm', 'B19febbraiobis.htm']
 C2 files whose repo spelling is not found by exact case but would be by lowercase (links needing a case twin): 202
 
-PAGES MIRRORED (html/htm): 31372
-LINKS REWRITTEN (absolute -> relative): 26005 in 25943 files
+PAGES MIRRORED (html/htm): 31374
+LINKS REWRITTEN (absolute -> relative): 26008 in 25945 files
 LINKS BROKEN ON THE ORIGINAL SITE (distinct targets): 253
-LINKS BROKEN BY US (distinct targets): 2
+LINKS BROKEN BY US (distinct targets): 0
 FILES SKIPPED / NOT FETCHED (status:kind -> count) from crawl log: {}
   skip-big = image over the size cap (photo archive, first pass); skip-type = video/audio/PDF/Word/etc; query-skipped = URLs with ?query (search runs live)
+
+=== PROGRESS (updated 2026-11-06 07:44:40 UTC) - SECOND PASS COMPLETE ===
+HTML pages mirrored: 31374
+Linked page targets still missing (fetchable): 0
+Linked pages that are 404 on Orlando's own site (broken on original): 253
+Broken by us (pages/css/js): 0   <- target met
+Verified: 35,036 files in MANIFEST, 0 hash mismatches after reversing the link rewrite; 300/300 live-sampled pages equal our file after the rewrite.
+Check B5 "inconclusive: 2" are false hits of the link regex on JavaScript text, not real links.
+Images: 3661 image files are in the copy (small images, <=250 KB, fetched up to a repository size budget; working tree 477M, .git 634M).
+Images / media still NOT in the copy: 46,919 distinct image/media targets (large photos, photo archive, video, audio, PDF, Word). They are relative links, so on GitHub Pages they will show as gaps until a third pass or until they are pointed at the live site. Speak to the owner before changing that.
+(The "STATUS AT TIME LIMIT" text above is from the first pass and is now out of date.)
