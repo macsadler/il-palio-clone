@@ -61,10 +61,13 @@ def main():
         if not lp.lower().endswith(('.htm', '.html')): continue
         full = os.path.join(ROOT, lp)
         data = open(full, 'rb').read()
+        if lp in log: data = reverse(data, log[lp])  # always rewrite from the original bytes so the log stays exact
         new, n, edits = rewrite(data, lp, mirrored)
-        if n:
+        if n or lp in log:
             open(full, 'wb').write(new)
-            total += n; files += 1; log[lp] = edits
+            total += n; files += 1
+            if n: log[lp] = edits
+            else: log.pop(lp, None)
     json.dump(log, open(os.path.join(ROOT, 'tools', 'rewrite_log.json'), 'w'), indent=0, sort_keys=True)
     print('links rewritten', total, 'in files', files)
     json.dump(log, open(os.path.join(ROOT, 'tools', 'rewrite_log.json'), 'w'), sort_keys=True)

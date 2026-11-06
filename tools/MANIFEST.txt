@@ -35033,3 +35033,5 @@ e3b57226226523a9d231671a8b7dd0e5c730619139eba4cfa8462b77312bbee2  146756  https:
 e603bc0a59abbadea262433c0376d2f22605a6762b510d3c64641c10e0321ebd  155795  https://www.ilpalio.org/arrivo1968l.jpg
 604fbae7dce03c12166d74fdae187dca40a5ba523783e3814dd0bc4263219bc7  29376  https://www.ilpalio.org/arrivo1968l2.jpg
 d4a44274c21793c1fc25de2198279c9fb93cba246edc326e81b59ff1a10e5685  143814  https://www.ilpalio.org/arrivo1969a.jpg
+486f6f1815887253fa358beb6c19f4dc9c7df3df99c0fdeb547ef18305fca9cf  5170  https://www.ilpalio.org/fbg49.htm
+9fd96ac06953e2693a52c9c0a3ce07972b8192686ceee7f6f7198dd165a39285  5322  https://www.ilpalio.org/alberto-positano.htm

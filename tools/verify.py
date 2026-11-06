@@ -94,7 +94,7 @@ def classify(t):
     return t, st
 def is_page(t): return os.path.splitext(t.lower())[1] in ('.htm', '.html', '.css', '.js') or not os.path.splitext(t)[1]
 media_missing = [t for t in broken if not is_page(t)]
-PAGE_CAP = 300
+PAGE_CAP = 400
 say('B0a missing page-type targets total:', sum(1 for t in broken if is_page(t)), '(first %d checked live)' % PAGE_CAP)
 with ThreadPoolExecutor(6) as ex: cl = list(ex.map(classify, sorted(t for t in broken if is_page(t))[:PAGE_CAP]))
 cl += [(t, 200) for t in media_missing[:0]]
