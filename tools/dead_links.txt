@@ -230,6 +230,7 @@ twilight1.htm
 uana.htm
 una-per-tuttim.htm
 urbanII.htm
+usapat1.htm
 vai_go.htm
 vassoiocanetta.htm
 vattrezzi.html
@@ -238,3 +239,6 @@ viso_dangelo.htm
 vittoriecontradechiociola.htm
 vittoriecontradedtartuca.htm
 vittoriecontradequila.htm
+winecellar.html
+wines_for_sale.htm
+zurigo.htm
