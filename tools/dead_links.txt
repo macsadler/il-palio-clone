@@ -121,6 +121,7 @@ s1878_10.htm
 s1878_11.htm
 s1878_12.htm
 s1878_13.htm
+s1878_14.htm
 s1878_2.htm
 s1878_3.htm
 s1878_4.htm
@@ -132,3 +133,6 @@ s1878_9.htm
 salome_de_mores.htm
 sc.bernini2.htm
 sc.htm
+scbartoletti.htm
+scbfantacci.htm
+scccaglione.htm
