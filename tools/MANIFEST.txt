@@ -31718,3 +31718,15 @@ c0e7d7b8d50d5e9b01ad0a05cd6bf48717e9eebbbe71f3bf60f8b75a940e17e5  3386  https://
 d49bd678823016977d2ecaa98595dfe4d1d9a8000810b146edd9aa5f8e7aef99  3389  https://www.ilpalio.org/vitt5322ter.htm
 daab45f4910afb26a0743218776b9afd0e00d7aa9669d7c8c81541d5151f36e0  2284  https://www.ilpalio.org/topolino1549_134.htm
 f6045efe9b676245035852e1df9b5f4d8b2f29904ffcdb1035a952994fe15095  3386  https://www.ilpalio.org/vitt5324.htm
+254354610c9a2d0261b8598297c5db4dfa7ab45de943119e66e5f9413a0e3f20  2284  https://www.ilpalio.org/topolino1549_142.htm
+32fe7a52d8da2be3fa7788a8ba5f4c8f47358ddc0dc54b7fec2f3ae1f0f85263  2284  https://www.ilpalio.org/topolino1549_139.htm
+3df9767bab223374bdad03b1ffa2b75e9fbb2d96cd1a1e732d00fb9bb0ad1328  3386  https://www.ilpalio.org/vitt5330.htm
+53f94c766f5b7efcf33a3dae0f197609baa61ab23f472f61884c708fa2331ade  3386  https://www.ilpalio.org/vitt5332.htm
+5a103c1cb5cddd7bd954a384f730bed626c220071f5158e3c3a68c5aae2ed3f5  2284  https://www.ilpalio.org/topolino1549_137.htm
+749d362ac18ecac8ebc1b9e4d151ad29ef790730584962a62c8ede2563f8b4cf  3386  https://www.ilpalio.org/vitt5331.htm
+79d2a226c08759827971334896d99b1609c8c0d907c96d8587a59199db07a5f4  2284  https://www.ilpalio.org/topolino1549_141.htm
+ccdd2b1952002c2d5dfb5126a1c8e9e97108bdaf8bdc59ce5106484077edc443  2284  https://www.ilpalio.org/topolino1549_138.htm
+cf87c556a1233e680a285c63c70438babfdaa0941174486ca75462b254ddc348  2284  https://www.ilpalio.org/topolino1549_140.htm
+d20cbfade90517a7f6007824fb0907d9d2eef0378692b0aca663ddaab3085515  3386  https://www.ilpalio.org/vitt5327.htm
+da8b04a8def8d35b01196fc7177439759e20a33d2d0600a0f253d60465ff9119  3386  https://www.ilpalio.org/vitt5329.htm
+e06d5b9ace75391fef526d53318dbaebb1f7472e23a454b2ef9e87365311acbf  3386  https://www.ilpalio.org/vitt5328.htm
